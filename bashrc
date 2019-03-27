@@ -132,3 +132,6 @@ PROMPT_DIRTRIM=3
 # Custom aliases
 
 alias cat='bat --paging=never --style=plain'
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
