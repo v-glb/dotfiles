@@ -1,7 +1,8 @@
 "-----------------------------------------"
 " Source: http://github.com/timss/vimconf "
 "-----------------------------------------"
-
+" Enable fzf inside vim
+set rtp+=~/.fzf
 " Use system clipboard
 set clipboard=unnamedplus
 " vimconf is not vi-compatible
