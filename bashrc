@@ -134,7 +134,3 @@ PROMPT_DIRTRIM=3
 alias cat='bat --paging=never --style=plain'
 alias translate_eng='dict -d fd-eng-deu'
 alias translate_deu='dict -d fd-deu-eng'
-# Install Ruby Gems to ~/gems
-export GEM_HOME="$HOME/gems"
-export PATH="$HOME/gems/bin:$PATH"
-
