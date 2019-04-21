@@ -134,3 +134,4 @@ PROMPT_DIRTRIM=3
 alias cat='bat --paging=never --style=plain'
 alias translate_eng='dict -d fd-eng-deu'
 alias translate_deu='dict -d fd-deu-eng'
+alias glances='glances --disable-bg'
