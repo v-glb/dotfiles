@@ -88,9 +88,9 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+# alias ll='ls -alF'
+# alias la='ls -A'
+# alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -134,4 +134,14 @@ PROMPT_DIRTRIM=3
 alias cat='bat --paging=never --style=plain'
 alias translate_eng='dict -d fd-eng-deu'
 alias translate_deu='dict -d fd-deu-eng'
-alias glances='glances --disable-bg'
+alias ls='exa'
+alias ll='exa -lag --git'
+alias cdata='cd /mnt/cb7a00e9-2b14-4512-a60f-3019893e8e0e/DATA/'
+
+# Java stuff
+
+export JAVA_HOME=/usr/lib/jvm/java-12-oracle
+
+# tabtab source for electron-forge package
+# uninstall by removing these lines or running `tabtab uninstall electron-forge`
+[ -f /mnt/cb7a00e9-2b14-4512-a60f-3019893e8e0e/DATA/Programming/JavaScript/00_Electron/electron-react-example/node_modules/tabtab/.completions/electron-forge.bash ] && . /mnt/cb7a00e9-2b14-4512-a60f-3019893e8e0e/DATA/Programming/JavaScript/00_Electron/electron-react-example/node_modules/tabtab/.completions/electron-forge.bash
