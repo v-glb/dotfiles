@@ -145,3 +145,6 @@ export JAVA_HOME=/usr/lib/jvm/java-12-oracle
 # tabtab source for electron-forge package
 # uninstall by removing these lines or running `tabtab uninstall electron-forge`
 [ -f /mnt/cb7a00e9-2b14-4512-a60f-3019893e8e0e/DATA/Programming/JavaScript/00_Electron/electron-react-example/node_modules/tabtab/.completions/electron-forge.bash ] && . /mnt/cb7a00e9-2b14-4512-a60f-3019893e8e0e/DATA/Programming/JavaScript/00_Electron/electron-react-example/node_modules/tabtab/.completions/electron-forge.bash
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
