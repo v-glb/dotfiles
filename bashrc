@@ -131,20 +131,9 @@ PROMPT_DIRTRIM=3
 
 # Custom aliases
 
-alias cat='bat --paging=never --style=plain'
+alias cat='bat --paging=never --style=plain --theme=TwoDark'
 alias translate_eng='dict -d fd-eng-deu'
 alias translate_deu='dict -d fd-deu-eng'
 alias ls='exa'
 alias ll='exa -lag --git'
-alias cdata='cd /mnt/cb7a00e9-2b14-4512-a60f-3019893e8e0e/DATA/'
-
-# Java stuff
-
-export JAVA_HOME=/usr/lib/jvm/java-12-oracle
-
-# tabtab source for electron-forge package
-# uninstall by removing these lines or running `tabtab uninstall electron-forge`
-[ -f /mnt/cb7a00e9-2b14-4512-a60f-3019893e8e0e/DATA/Programming/JavaScript/00_Electron/electron-react-example/node_modules/tabtab/.completions/electron-forge.bash ] && . /mnt/cb7a00e9-2b14-4512-a60f-3019893e8e0e/DATA/Programming/JavaScript/00_Electron/electron-react-example/node_modules/tabtab/.completions/electron-forge.bash
-# Install Ruby Gems to ~/gems
-export GEM_HOME="$HOME/gems"
-export PATH="$HOME/gems/bin:$PATH"
+alias cdata='cd /mnt/md0/DATA/'
