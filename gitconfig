@@ -1,0 +1,6 @@
+[user]
+	signingkey = 360C747A9D50C6B8
+	name = v-glb
+	email = v.networks@posteo.de
+[commit]
+	gpgSign = true
