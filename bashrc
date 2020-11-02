@@ -131,11 +131,11 @@ PROMPT_DIRTRIM=3
 
 # Custom aliases
 
-alias cat='bat --paging=never --style=plain --theme=TwoDark'
+alias cat='batcat --paging=never --style=plain --theme=TwoDark'
 alias translate_eng='dict -d fd-eng-deu'
 alias translate_deu='dict -d fd-deu-eng'
-alias ls='exa'
-alias ll='exa -lag --git'
+# alias ls='exa'
+# alias ll='exa -lag --git'
 alias cdata='cd /mnt/md0/DATA/'
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
