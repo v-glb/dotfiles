@@ -41,9 +41,10 @@ set nocompatible
         endif
     """ }}}
 
-    " distraction-free writing with Goyo and LimeLight
+    " distraction-free writing with Goyo, LimeLight and vim-pencil
     Plugin 'junegunn/goyo.vim'
     Plugin 'junegunn/limelight.vim'
+    Plugin 'reedes/vim-pencil'
 
     " Edit files using sudo/su
     Plugin 'chrisbra/SudoEdit.vim'
@@ -674,7 +675,8 @@ set nocompatible
           set noshowcmd
           set scrolloff=999
           Limelight
-          set wrap
+          HardPencil
+          setlocal spell! spelllang=de
           " Ensure :q to quit even when Goyo is active
           let b:quitting = 0
           let b:quitting_bang = 0
@@ -691,7 +693,8 @@ set nocompatible
           set showcmd
           set scrolloff=5
           Limelight!
-          set wrap!
+          " HardPencil!
+          set spell!
           " Quit Vim if this is the only remaining buffer
           if b:quitting && len(filter(range(1, bufnr('$')), 'buflisted(v:val)')) == 1
             if b:quitting_bang
