@@ -677,6 +677,8 @@ set nocompatible
           Limelight
           HardPencil
           setlocal spell! spelllang=de
+          set ft=text
+
           " Ensure :q to quit even when Goyo is active
           let b:quitting = 0
           let b:quitting_bang = 0
